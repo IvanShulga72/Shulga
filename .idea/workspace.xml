@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="" />
+    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/2file.py" beforeDir="false" afterPath="$PROJECT_DIR$/2file.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,11 +27,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/shulg/repositories/Shulga"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shulg/repositories/Shulga&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shulg\repositories\Shulga" />

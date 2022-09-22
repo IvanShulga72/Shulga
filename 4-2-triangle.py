@@ -21,4 +21,4 @@ try:
 
 finally:
     [GPIO.output(i, 0) for i in dac]
-    GPIO.claenup
+    GPIO.cleanup()

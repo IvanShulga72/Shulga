@@ -1,0 +1,33 @@
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM)
+dac = [26, 19, 13, 6, 5, 11, 9, 10]
+comp = 4
+troyka = 17
+GPIO.setup(troyka, GPIO.OUT, initial = GPIO.HIGH)
+GPIO.setup(comp, GPIO.IN)
+[GPIO.setup(i, GPIO.OUT, initial = GPIO.LOW) for i in dac]
+
+try:
+    t0 = 0
+    GPIO.setup(troyka, GPIO.OUT, initial = GPIO.LOW)
+    num = abc()
+
+    while num < 240:
+        num = abc()
+        if num > 0:
+            print(num, int(3.3 * num / 256 * 100) / 100)
+    if num > 240:
+        GPIO.setup(troyka, GPIO.OUT, initial = GPIO.LOW)
+        t0 = time.time()
+        
+    while num > 10:
+        num = abc()
+        if num > 0:
+            print(num, int(3.3 * num / 256 * 100) / 100)
+
+finally:
+    print(time.time() - t0)
+    [GPIO.output(i, 0) for i in dac]
+    GPIO.cleanup()

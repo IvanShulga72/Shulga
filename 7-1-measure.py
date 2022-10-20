@@ -33,7 +33,7 @@ try:
         num = abc()
         if num > 0:
             print(num, int(3.3 * num / 256 * 100) / 100)
-            mas.append(num)
+            mas.append(str(num))
             count+=1
 # выставление 0 наряжение на тройка модуле
     print("выставление 0 наряжение на тройка модуле")
@@ -44,7 +44,7 @@ try:
         num = abc()
         if num > 0:
             print(num, int(3.3 * num / 256 * 100) / 100)
-            mas.append(num)
+            mas.append(str(num))
             count+=1
 # время эксперимента
     t_exp=time.time()-t0
@@ -57,12 +57,11 @@ try:
     plt.plot(x, mas)
     plt.show()
 # перенос данных в фаил
+    set = [str(3.3 / 256), str(count / t_exp)]
     with open("data.txt", "w") as outfile:
         outfile.write("\n".join(mas))
-    with open("data.txt", "w") as outfile:
-        outfile.write("Шаг квантования " + str(3.3 / 256))
-    with open("data.txt", "w") as outfile:
-        outfile.write("Средняя частота дискритицации " + str(count / t_exp))
+    with open("settings.txt", "w") as outfile:
+        outfile.write("\n".join(set))
 
 finally:
     print(time.time() - t0)

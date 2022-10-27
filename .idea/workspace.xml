@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="добавление точек на графике">
-      <change afterPath="$PROJECT_DIR$/4-1-dac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-2-triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4-3-pwm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-1-adc-simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-2-adc-sar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5-3-adc-volume.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-1-measure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8-settings-data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Untitled-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proba.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/settings.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="добавление точек на графике" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/shulg/repositories/Shulga",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shulg/repositories/Shulga&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shulg\repositories\Shulga" />

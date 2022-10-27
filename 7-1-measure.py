@@ -2,7 +2,6 @@ import RPi.GPIO as GPIO
 import time
 from matplotlib import pyplot as plt
 
-
 GPIO.setmode(GPIO.BCM)
 dac = [26, 19, 13, 6, 5, 11, 9, 10]
 comp = 4

@@ -15,16 +15,16 @@ with open('u^2 ~ F', 'r') as file:
     arr=file.readlines()
     for line in arr:
         arrx, arry = line.split()
-        x3.append(float(arrx)**2)
+        x3.append(float(arrx))
         y3.append(float(arry))
 import matplotlib.pyplot as plt
 import numpy as np
 
 #Рисование крестов и другое
 fig, ax = plt.subplots()
-ax.set_title('u^2 ~ F')
-ax.set_xlabel('u^2')
-ax.set_ylabel('F')
+ax.set_title('w ~ m')
+ax.set_xlabel('m')
+ax.set_ylabel('w')
 ax.grid(True, linestyle='-.')
 ax.tick_params(labelsize='medium', width=3)
 '''
@@ -35,7 +35,7 @@ ax.errorbar(x5, y5, yerr5, fmt='.', linewidth=2, capsize=6, color='k')
 '''
 yerr3=[]
 for i in y3:
-    yerr3.append(0.002*i+0.01)
+    yerr3.append(0.007*i+0.001)
 ax.errorbar(x3, y3, yerr3, fmt='.', linewidth=2, capsize=6, color='k')
 
 #Апроксимация
@@ -60,7 +60,7 @@ a3 = args[0]
 b3 = args[1]
 xx3=[]
 yy3=[]
-for i in range(35000):
+for i in range(350):
     xx3.append(i)
     yy3.append(a3 * i + b3)
 plt.plot(xx3, yy3)

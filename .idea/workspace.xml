@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="добавление точек на графике" />
+    <list default="true" id="a82a5ce5-a36d-4e41-a8d4-e07ba17c5cfd" name="Changes" comment="добавление точек на графике">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/u^2 ~ F" beforeDir="false" afterPath="$PROJECT_DIR$/u^2 ~ F" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -15,16 +15,16 @@ with open('u^2 ~ F', 'r') as file:
     arr=file.readlines()
     for line in arr:
         arrx, arry = line.split()
-        x3.append(float(arrx))
-        y3.append(float(arry))
+        x3.append(float(arrx)*100000)
+        y3.append(float(arry)*100000)
 import matplotlib.pyplot as plt
 import numpy as np
 
 #Рисование крестов и другое
 fig, ax = plt.subplots()
-ax.set_title('w ~ m')
-ax.set_xlabel('m')
-ax.set_ylabel('w')
+ax.set_title('I ~ $h^2$')
+ax.set_xlabel('$h^2 * 100000$')
+ax.set_ylabel('I * 100000')
 ax.grid(True, linestyle='-.')
 ax.tick_params(labelsize='medium', width=3)
 '''
@@ -60,7 +60,7 @@ a3 = args[0]
 b3 = args[1]
 xx3=[]
 yy3=[]
-for i in range(350):
+for i in range(260):
     xx3.append(i)
     yy3.append(a3 * i + b3)
 plt.plot(xx3, yy3)
